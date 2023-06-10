@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tinfo.thenewcollege" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tinfologo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tinfologo1_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheNewCollege" >
+        <activity
+            android:name=".editdetailsinKotlin"
+            android:exported="false"
+            android:label="@string/title_activity_editdetailsin_kotlin"
+            android:theme="@style/Theme.TheNewCollege" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".editdetails"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayImage"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".NamazTimings"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".OfficeAdminPanel"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".exampleactivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".Studentauthactivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".masjidadminpanel_activity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".StudentRegistration"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".launcherActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

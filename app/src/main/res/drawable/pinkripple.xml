@@ -1,0 +1,14 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#DF27DC"
+    >
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#f2c5ff" />
+            <corners     android:radius="14dp"/>
+
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/pinkgradd" />
+</ripple>
